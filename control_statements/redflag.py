@@ -22,13 +22,33 @@ else:
 #input () :
 name = input("enter your name:")
 print("hello:"+name)
-age = input("enter your age:")
+age = int(input("enter your age:"))
 gender = input("enter gender:")
-age = int(age)
 if (age>=21):
     print("you are allowed to drink")
 if (age>35):
     print("welcome unc")
 else:
     print("go home")
-if (gender = male
+
+#ternary operator 
+name = input("enter your name:")
+age = int(input("enter your age:"))
+stats = "you can enter" if age>=21 else "get out"
+print(stats)
+
+
+#elif ladder 
+speed = int(input("speed caught at:"))
+if speed <= 50:
+    print ("impeeding traffic")
+elif speed >=200:
+    print ("dangerous driving")
+elif speed >= 180:
+    print ("rash driving")
+elif speed >= 150:
+    print ("speeding")
+elif speed >= 120:
+    print ("negligant driving")
+elif speed >= 80:
+    print ("appropriate speed")
