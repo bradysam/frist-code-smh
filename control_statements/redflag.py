@@ -52,3 +52,18 @@ elif speed >= 120:
     print ("negligant driving")
 elif speed >= 80:
     print ("appropriate speed")
+
+
+#match case
+choice = int(input("select your fav fruit: 1-mango, 2-strawberries, 3-orange, 4-watermealon :"))
+match choice:
+    case 1:
+        print("mango")
+    case 2:
+        print("strawberries")
+    case 3:
+        print("orange")
+    case 4:
+        print("watermealon")
+    case _:
+        print("please chose a fruit you DOUNUT")
