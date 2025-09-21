@@ -4,7 +4,7 @@ identi = input("do you consume alcohol?(yes/no):")
 if age <18:
     print ("no booze for you")
 
-if 21 >= age >= 18:
+if 21 > age >= 18:
     if identi == "yes":
         print("you need your parents with you")
     else:
@@ -20,4 +20,15 @@ for row in range(25,30):
     for column in range(25,30):
         print(f"{row} x {column} = {row*column}")
     print("**************")
+print("yayay it works")
 
+# while with nested loops
+row = 1 
+while row < 6:
+    colum = 1
+    while colum < 6:
+        print(f"{row} x {colum} = {row*colum}")
+        colum+=1
+    print("--------")
+    row+=1
+print("yayay it works")
