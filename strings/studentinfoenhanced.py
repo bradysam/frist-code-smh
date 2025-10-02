@@ -17,4 +17,4 @@ while not stu_id_valid:
     else:
         print("enter a valid Student ID")
 else:
-    print(stud_id)
+    print("student ID:",stud_id)
